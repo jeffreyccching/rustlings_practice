@@ -1,6 +1,6 @@
 <div class="oranda-hide">
 
-# rustlings 🦀❤️
+# rustlings practice 🦀❤️
 
 </div>
 
@@ -50,23 +50,6 @@ nix develop
 nix-shell
 ```
 
-## Windows
-
-In PowerShell (Run as Administrator), set `ExecutionPolicy` to `RemoteSigned`:
-
-```ps1
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-Then, you can run:
-
-```ps1
-Start-BitsTransfer -Source https://raw.githubusercontent.com/rust-lang/rustlings/main/install.ps1 -Destination $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1
-```
-
-To install Rustlings. Same as on MacOS/Linux, you will have access to the `rustlings` command after it. Keep in mind that this works best in PowerShell, and any other terminals may give you errors.
-
-If you get a permission denied message, you might have to exclude the directory where you cloned Rustlings in your antivirus.
 
 ## Browser
 
